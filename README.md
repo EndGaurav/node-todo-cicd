@@ -13,3 +13,4 @@ Run these commands:
 
 `node app.js`
 
+or docker compose up -d --no-deps --build web
