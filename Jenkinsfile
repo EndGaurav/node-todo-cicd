@@ -1,10 +1,10 @@
 pipeline {
-    agent { label 'node-agent' }
+    agent { label 'production-agent' }
     
     stages{
         stage('Code'){
             steps{
-                git url: 'https://github.com/LondheShubham153/node-todo-cicd.git', branch: 'master' 
+                git url: 'https://github.com/EndGaurav/node-todo-cicd.git', branch: 'master' 
             }
         }
         stage('Build and Test'){
