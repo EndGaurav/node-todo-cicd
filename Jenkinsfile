@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'production-agent' }
+    agent { label 'production-app' }
     
     stages{
         stage('Code'){
